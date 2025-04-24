@@ -2,10 +2,8 @@ document.addEventListener("alpine:init", () => {
   Alpine.data("products", () => ({
     items: [
       { id: 1, name: "Coffee Beans", img: "1.jpg", price: 30000 },
-      { id: 2, name: "Gas 3 Kg", img: "2.jpg", price: 21000 },
-      { id: 3, name: "Bijih Timah", img: "3.jpg", price: 300000000000000 },
-      { id: 4, name: "Sosok?????", img: "4.jpg", price: 999000 },
-      { id: 5, name: "Biji Kopi Arabica", img: "5.jpg", price: 50000 },
+      { id: 2, name: "Biji kopi arabica", img: "5.jpg", price: 21000 },
+      
     ],
   }));
 
